@@ -396,7 +396,7 @@ export default function AboutSection({ showUXLaws = false }: AboutSectionProps) 
                           <div className="flex-1">
                             <div className="flex justify-between text-sm mb-1">
                               <span>CPI</span>
-                              <span className="font-medium">6.87/10</span>
+                              <span className="font-medium">8.2/10</span>
                             </div>
                             <div className="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-2">
                               <div className="h-2 rounded-full bg-gradient-to-r from-green-500 to-emerald-500 transition-all duration-1000" style={{ width: '68.7%' }}></div>
