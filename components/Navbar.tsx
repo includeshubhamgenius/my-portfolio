@@ -45,8 +45,8 @@ export default function Navbar({ showUXLaws = false }: NavbarProps) {
             </a>
             {showUXLaws && (
               <TooltipBubble 
-                content="Recognition over Recall: Brand name always visible for easy navigation back to home"
-                position="bottom"
+                lawName="Recognition over Recall: Brand name always visible for easy navigation back to home"
+                description="bottom"
               />
             )}
           </div>
@@ -63,8 +63,8 @@ export default function Navbar({ showUXLaws = false }: NavbarProps) {
                 </a>
                 {showUXLaws && index === 0 && (
                   <TooltipBubble 
-                    content="Fitts's Law: Larger touch targets with padding improve click accuracy"
-                    position="bottom"
+                    lawName="Fitts's Law: Larger touch targets with padding improve click accuracy"
+                    description="bottom"
                   />
                 )}
               </div>
@@ -77,8 +77,8 @@ export default function Navbar({ showUXLaws = false }: NavbarProps) {
               </button>
               {showUXLaws && (
                 <TooltipBubble 
-                  content="Von Restorff Effect: High contrast CTA stands out from navigation links"
-                  position="bottom"
+                  lawName="Von Restorff Effect: High contrast CTA stands out from navigation links"
+                  description="bottom"
                 />
               )}
             </div>
@@ -105,8 +105,8 @@ export default function Navbar({ showUXLaws = false }: NavbarProps) {
             </button>
             {showUXLaws && (
               <TooltipBubble 
-                content="Affordance: Hamburger menu universally recognized as mobile navigation trigger"
-                position="bottom"
+                lawName="Affordance: Hamburger menu universally recognized as mobile navigation trigger"
+                description="bottom"
               />
             )}
           </div>
