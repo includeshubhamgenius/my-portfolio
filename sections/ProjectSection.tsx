@@ -194,8 +194,8 @@ export default function ProjectSection({ showUXLaws = false }: ProjectSectionPro
             </h2>
             {showUXLaws && (
               <TooltipBubble 
-                content="Von Restorff Effect: Large, contrasting headers help important content stand out"
-                position="top"
+                lawName="Von Restorff Effect: Large, contrasting headers help important content stand out"
+                description="top"
               />
             )}
           </div>
@@ -299,8 +299,8 @@ export default function ProjectSection({ showUXLaws = false }: ProjectSectionPro
             
             {showUXLaws && (
               <TooltipBubble 
-                content="Progressive Disclosure: Hero section highlights key project, detailed view available on demand"
-                position="top"
+                lawName="Progressive Disclosure: Hero section highlights key project, detailed view available on demand"
+                description="top"
               />
             )}
           </div>
@@ -462,8 +462,8 @@ export default function ProjectSection({ showUXLaws = false }: ProjectSectionPro
                 
                 {hoveredProject === project.id && showUXLaws && (
                   <TooltipBubble 
-                    content="Fitts's Law: Larger click targets and hover states improve interaction efficiency"
-                    position="top"
+                    lawName="Fitts's Law: Larger click targets and hover states improve interaction efficiency"
+                    description="top"
                   />
                 )}
               </div>
@@ -556,12 +556,6 @@ export default function ProjectSection({ showUXLaws = false }: ProjectSectionPro
                         </div>
                         <div className="flex justify-between">
                           <span className="text-gray-600 dark:text-gray-400">Category:</span>
-
-
-
-
-
-
                           <span className="text-gray-900 dark:text-white">{selectedProject.category}</span>
                         </div>
                         <div className="flex justify-between">
@@ -579,8 +573,8 @@ export default function ProjectSection({ showUXLaws = false }: ProjectSectionPro
                 
                 {showUXLaws && (
                   <TooltipBubble 
-                    content="Hick's Law: Modal focuses attention on single project, reducing cognitive load"
-                    position="top"
+                    lawName="Hick's Law: Modal focuses attention on single project, reducing cognitive load"
+                    description="top"
                   />
                 )}
               </div>

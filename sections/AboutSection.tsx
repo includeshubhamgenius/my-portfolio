@@ -198,8 +198,8 @@ export default function AboutSection({ showUXLaws = false }: AboutSectionProps) 
             </h2>
             {showUXLaws && (
               <TooltipBubble 
-                content="Visual Hierarchy: Large, gradient text creates strong focal point"
-                position="top"
+                lawName="Visual Hierarchy: Large, gradient text creates strong focal point"
+                description="top"
               />
             )}
           </div>
@@ -243,8 +243,8 @@ export default function AboutSection({ showUXLaws = false }: AboutSectionProps) 
             </div>
             {showUXLaws && (
               <TooltipBubble 
-                content="Progressive Disclosure: Tabs organize content and reduce cognitive load"
-                position="top"
+                lawName="Progressive Disclosure: Tabs organize content and reduce cognitive load"
+                description="top"
               />
             )}
           </div>

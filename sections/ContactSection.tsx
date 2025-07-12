@@ -157,8 +157,8 @@ export default function ContactSection({ showUXLaws = false }: ContactSectionPro
             </h2>
             {showUXLaws && (
               <TooltipBubble 
-                content="Emotional Design: Warm, inviting language encourages engagement"
-                position="top"
+                lawName="Emotional Design: Warm, inviting language encourages engagement"
+                description="top"
               />
             )}
           </div>
@@ -195,7 +195,7 @@ export default function ContactSection({ showUXLaws = false }: ContactSectionPro
                   {method.icon}
                 </div>
                 
-                {/* Content */}
+                {/* content */}
                 <h3 className="text-xl font-bold mb-2 text-gray-900 dark:text-white group-hover:text-gray-700 dark:group-hover:text-gray-200 transition-colors duration-300">
                   {method.label}
                 </h3>
@@ -214,8 +214,8 @@ export default function ContactSection({ showUXLaws = false }: ContactSectionPro
               
               {showUXLaws && method.id === 'email' && (
                 <TooltipBubble 
-                  content="Fitts's Law: Large touch targets reduce selection errors"
-                  position="top"
+                  lawName="Fitts's Law: Large touch targets reduce selection errors"
+                  description="top"
                 />
               )}
             </div>
@@ -230,8 +230,8 @@ export default function ContactSection({ showUXLaws = false }: ContactSectionPro
             </h3>
             {showUXLaws && (
               <TooltipBubble 
-                content="Hick's Law: Categorized options reduce decision time"
-                position="top"
+                lawName="Hick's Law: Categorized options reduce decision time"
+                description="top"
               />
             )}
           </div>
@@ -296,8 +296,8 @@ export default function ContactSection({ showUXLaws = false }: ContactSectionPro
             
             {showUXLaws && (
               <TooltipBubble 
-                content="Progressive Disclosure: Pre-filled template reduces friction in communication"
-                position="top"
+                lawName="Progressive Disclosure: Pre-filled template reduces friction in communication"
+                description="top"
               />
             )}
           </div>
@@ -311,8 +311,8 @@ export default function ContactSection({ showUXLaws = false }: ContactSectionPro
             </p>
             {showUXLaws && (
               <TooltipBubble 
-                content="Reciprocity Principle: Personal invitation creates connection and encourages response"
-                position="top"
+                lawName="Reciprocity Principle: Personal invitation creates connection and encourages response"
+                description="top"
               />
             )}
           </div>

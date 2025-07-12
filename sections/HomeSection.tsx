@@ -61,8 +61,8 @@ export default function HomeSection() {
               </div>
               {showUXLaws && (
                 <TooltipBubble 
-                  content="Visual Hierarchy: Profile photo creates focal point and builds trust (Recognition over Recall)"
-                  position="top"
+                  lawName="Visual Hierarchy: Profile photo creates focal point and builds trust (Recognition over Recall)"
+                  description="top"
                 />
               )}
             </div>
@@ -103,8 +103,8 @@ export default function HomeSection() {
                 </div>
                 {showUXLaws && (
                   <TooltipBubble 
-                    content="Fitts's Law: Larger touch targets and hover states improve usability"
-                    position="top"
+                    lawName="Fitts's Law: Larger touch targets and hover states improve usability"
+                    description="top"
                   />
                 )}
               </div>
@@ -120,8 +120,8 @@ export default function HomeSection() {
                 </div>
                 {showUXLaws && (
                   <TooltipBubble 
-                    content="Gestalt Principles: Consistent spacing and alignment create visual harmony"
-                    position="top"
+                    lawName="Gestalt Principles: Consistent spacing and alignment create visual harmony"
+                    description="top"
                   />
                 )}
               </div>
@@ -137,8 +137,8 @@ export default function HomeSection() {
                 </div>
                 {showUXLaws && (
                   <TooltipBubble 
-                    content="Hick's Law: Simplified choices reduce cognitive load and decision time"
-                    position="top"
+                    lawName="Hick's Law: Simplified choices reduce cognitive load and decision time"
+                    description="top"
                   />
                 )}
               </div>
@@ -164,8 +164,8 @@ export default function HomeSection() {
                 </button>
                 {showUXLaws && (
                   <TooltipBubble 
-                    content="Affordance: Toggle design clearly indicates interactivity and current state"
-                    position="top"
+                    lawName="Affordance: Toggle design clearly indicates interactivity and current state"
+                    description="top"
                   />
                 )}
               </div>
@@ -181,8 +181,8 @@ export default function HomeSection() {
                 </button>
                 {showUXLaws && (
                   <TooltipBubble 
-                    content="Von Restorff Effect: High contrast CTA stands out and draws attention"
-                    position="top"
+                    lawName="Von Restorff Effect: High contrast CTA stands out and draws attention"
+                    description="top"
                   />
                 )}
               </div>
@@ -193,8 +193,8 @@ export default function HomeSection() {
                 </button>
                 {showUXLaws && (
                   <TooltipBubble 
-                    content="Progressive Disclosure: Secondary action uses subtle styling to maintain hierarchy"
-                    position="top"
+                    lawName="Progressive Disclosure: Secondary action uses subtle styling to maintain hierarchy"
+                    description="top"
                   />
                 )}
               </div>
