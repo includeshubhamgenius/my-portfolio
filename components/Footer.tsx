@@ -62,8 +62,8 @@ export default function Footer({ showUXLaws = false }: FooterProps) {
               </h3>
               {showUXLaws && (
                 <TooltipBubble 
-                  lawName="Brand Consistency: Maintaining visual identity across all touchpoints"
-                  description="top"
+                  lawName="Brand Consistency"
+                  description="Maintaining visual identity across all touchpoints"
                 />
               )}
             </div>
@@ -97,8 +97,8 @@ export default function Footer({ showUXLaws = false }: FooterProps) {
               </ul>
               {showUXLaws && (
                 <TooltipBubble 
-                  lawName="Information Architecture: Organized navigation aids user wayfinding"
-                  description="top"
+                  lawName="Information Architecture"
+                  description="Organized navigation aids user wayfinding"
                 />
               )}
             </div>
@@ -124,8 +124,8 @@ export default function Footer({ showUXLaws = false }: FooterProps) {
               </div>
               {showUXLaws && (
                 <TooltipBubble 
-                  lawName="Fitts's Law: Larger touch targets with hover states improve usability"
-                  description="top"
+                  lawName="Fitts's Law"
+                  description="Larger touch targets with hover states improve usability"
                 />
               )}
             </div>
@@ -147,8 +147,8 @@ export default function Footer({ showUXLaws = false }: FooterProps) {
               </p>
               {showUXLaws && (
                 <TooltipBubble 
-                  lawName="Legal Compliance: Copyright notice provides legal protection and professionalism"
-                  description="top"
+                  lawName="Legal Compliance"
+                  description="Copyright notice provides legal protection and professionalism"
                 />
               )}
             </div>
@@ -162,8 +162,8 @@ export default function Footer({ showUXLaws = false }: FooterProps) {
                 </div>
                 {showUXLaws && (
                   <TooltipBubble 
-                    lawName="Status Visibility: Clear availability status helps potential employers"
-                    description="top"
+                    lawName="Status Visibility"
+                    description="Clear availability status helps potential employers"
                   />
                 )}
               </div>
@@ -185,8 +185,8 @@ export default function Footer({ showUXLaws = false }: FooterProps) {
             </button>
             {showUXLaws && (
               <TooltipBubble 
-                lawName="Progressive Enhancement: Smooth scroll improves user experience over page jumps"
-                description="top"
+                lawName="Progressive Enhancement"
+                description="Smooth scroll improves user experience over page jumps"
               />
             )}
           </div>
